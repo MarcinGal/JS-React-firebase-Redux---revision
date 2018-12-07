@@ -45,6 +45,7 @@ class Navigation extends React.Component {
               <MenuLink to={'/passing-props'} label="Passing Props" />
               <MenuLink to={'/random-users'} label="Random Users" />
               <MenuLink to={'/sync-users'} label="Sync Users" />
+              <MenuLink to={'/add'} label="Add" />
             </Drawer>
           </div>
         )

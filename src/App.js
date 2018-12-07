@@ -6,6 +6,7 @@ import { ListItem } from 'material-ui/List'
 import Navigation from './Navigation'
 import FetchUsers from './FetchUsers'
 import SyncUsers from './SyncUsers'
+import Add from './Add'
 
 class App extends React.Component {
   render() {
@@ -51,6 +52,7 @@ class App extends React.Component {
             } />
             <Route path="/random-users" component={FetchUsers} />
             <Route path="/sync-users" component={SyncUsers} />
+            <Route path="/add" component={Add} />
 
           </div>
         </div>
