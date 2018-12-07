@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { ListItem } from 'material-ui/List'
 import Navigation from './Navigation'
 import FetchUsers from './FetchUsers'
+import SyncUsers from './SyncUsers'
 
 class App extends React.Component {
   render() {
@@ -49,6 +50,7 @@ class App extends React.Component {
               />
             } />
             <Route path="/random-users" component={FetchUsers} />
+            <Route path="/sync-users" component={SyncUsers} />
 
           </div>
         </div>
