@@ -27,7 +27,7 @@ class Navigation extends React.Component {
             </ListItem>
           </Link>
         )
-    
+
         return (
           <div>
             <AppBar
@@ -48,6 +48,5 @@ class Navigation extends React.Component {
         )
       }
     }
-    
 
     export default Navigation
