@@ -43,6 +43,7 @@ class Navigation extends React.Component {
               <MenuLink to={'/counter'} label="Counter" />
               <MenuLink to={'/counter-with-start-value'} label="Counter 15" />
               <MenuLink to={'/passing-props'} label="Passing Props" />
+              <MenuLink to={'/random-users'} label="Random Users" />
             </Drawer>
           </div>
         )

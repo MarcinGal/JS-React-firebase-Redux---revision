@@ -4,6 +4,7 @@ import PassingProps from './PassingProps'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import { ListItem } from 'material-ui/List'
 import Navigation from './Navigation'
+import FetchUsers from './FetchUsers'
 
 class App extends React.Component {
   render() {
@@ -47,6 +48,8 @@ class App extends React.Component {
                 startValue={15}
               />
             } />
+            <Route path="/random-users" component={FetchUsers} />
+
           </div>
         </div>
       </Router>
